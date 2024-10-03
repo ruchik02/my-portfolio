@@ -5,6 +5,8 @@
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #020344;  
-    /* Fonts */
+    --color-gray: #19212C;
+    --color-darkGray: #333;
+        /* Fonts */
     --font-roboto: "Roboto";
   }
