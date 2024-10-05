@@ -1,6 +1,6 @@
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
-
+import React from 'react';
 export const About = () => {
   return (
     <section className={styles.container} id="about">

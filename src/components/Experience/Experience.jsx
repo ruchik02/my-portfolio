@@ -1,13 +1,13 @@
 import styles from "./Experience.module.css";
 import { history } from "../../constants/data";
 import { getImageUrl } from "../../utils";
-
+import React from 'react';
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
-      <img
+        <img
           src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}

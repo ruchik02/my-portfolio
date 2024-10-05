@@ -5,16 +5,27 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Project"
+import React, {useState } from "react";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
+// import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+  console.log(openModal)
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
       <About />
       <Skills />
-      <Experience/>
+      <Experience />
+      <Projects openModal={openModal} setOpenModal={setOpenModal} />
+      
       <Contact />
+      {openModal.state && (
+       <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+      )}
     </div>
   );
 }
