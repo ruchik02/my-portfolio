@@ -106,4 +106,9 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }

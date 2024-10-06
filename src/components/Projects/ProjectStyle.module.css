@@ -74,3 +74,10 @@
     gap: 28px;
     flex-wrap: wrap;
   }
+  @media screen and (max-width: 830px) {
+    .container {
+      background-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
