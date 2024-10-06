@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from './ProjectStyle.module.css' // Import the CSS module
 import ProjectCards from '../Cards/ProjectCards';
 import { projects } from '../../constants/data';
-import React from 'react';
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState('all');
 

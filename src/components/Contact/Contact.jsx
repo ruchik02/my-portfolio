@@ -1,6 +1,5 @@
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
-import React from 'react';
 export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>

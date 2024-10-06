@@ -1,6 +1,5 @@
 import styles from "./Skills.module.css"; // Import CSS for styles
 import { skills } from "../../constants/data";
-import React from 'react';
 const Skills = () => {
   return (
     <section className={styles.container} id="skills">

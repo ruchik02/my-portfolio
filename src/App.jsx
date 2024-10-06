@@ -6,7 +6,7 @@ import { Hero } from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Project"
-import React, {useState } from "react";
+import {useState } from "react";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 // import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 

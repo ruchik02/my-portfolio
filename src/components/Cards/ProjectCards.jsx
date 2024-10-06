@@ -1,5 +1,4 @@
 import styles from './ProjectCards.module.css'; // Import the CSS module
-import React from 'react';
 const ProjectCards = ({ project, setOpenModal }) => {
     return (
         <div className={styles.card} onClick={() => setOpenModal({ state: true, project: project })}>

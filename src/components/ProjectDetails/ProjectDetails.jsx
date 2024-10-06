@@ -1,7 +1,6 @@
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import styles from './ProjectDetails.module.css'
-import React from 'react';
 const ProjectDetails = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
@@ -47,7 +46,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                     )}
                     <div className={styles.buttonGroup}>
                         <a href={project?.github} className={`${styles.button} ${styles.dull}`} target="_blank" rel="noopener noreferrer">View Code</a>
-                        <a href={project?.webapp} className={styles.button} target="_blank" rel="noopener noreferrer">View Live App</a>
+                        <a href={project?.webapp} className={`${styles.button} ${styles.dull}`} target="_blank" rel="noopener noreferrer">View Live App</a>
                     </div>
                 </div>
             </div>

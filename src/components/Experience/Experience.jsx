@@ -1,7 +1,6 @@
 import styles from "./Experience.module.css";
 import { history } from "../../constants/data";
 import { getImageUrl } from "../../utils";
-import React from 'react';
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
