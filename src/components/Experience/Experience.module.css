@@ -139,6 +139,7 @@
   .aboutImage {
     display: none;
   }
+
   .history {
     width: 100%;
     gap: 9px;
@@ -146,5 +147,8 @@
   .historyItem:hover {
     transform: none;
     box-shadow: none;
+  }
+  .historyItem img {
+    display: none;
   }
 }

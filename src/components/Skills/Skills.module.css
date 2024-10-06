@@ -52,7 +52,7 @@
 .skill {
   width: 100%;
   max-width: 500px;
-  border: 2px solid var(--color-gray);
+  border: 2px solid var(--color-text3);
   box-shadow: white;
   border-radius: 16px;
   background-image: linear-gradient(
