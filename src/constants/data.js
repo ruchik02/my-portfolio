@@ -1,4 +1,5 @@
 import RealEstate from '../../assets/hero/real.png'
+import one from '../../assets/hero/one.png'
 export const skills = [
   {
     title: "Frontend",
@@ -263,18 +264,18 @@ export const projects = [
       github: "https://github.com/ruchik02/Guessing_game",
       webapp: "https://guessing-game-using-js.netlify.app/",
     },
-    {
-      id: 0,
-      title: "Hospital",
-      description:
-        "This hospital website showcases our services, facilities, and healthcare team. Built with HTML, CSS, SCSS, and JavaScript, it features an intuitive design for easy navigation, allowing patients to book appointments and access health resources seamlessly.",
-      image:
-        "https://user-images.githubusercontent.com/83516020/159288870-f27205cf-8404-4987-beb3-6c5577e32d7d.jpg",
-      tags: ["HTML", "CSS", "SCSS", "Javascript"],
-      category: "web app",
-      github: "https://github.com/ruchik02/Hospital-website",
-      webapp: "https://hospital-project01.netlify.app/",
-    },
+    // {
+    //   id: 0,
+    //   title: "Hospital",
+    //   description:
+    //     "This hospital website showcases our services, facilities, and healthcare team. Built with HTML, CSS, SCSS, and JavaScript, it features an intuitive design for easy navigation, allowing patients to book appointments and access health resources seamlessly.",
+    //   image:
+    //     "https://user-images.githubusercontent.com/83516020/159288870-f27205cf-8404-4987-beb3-6c5577e32d7d.jpg",
+    //   tags: ["HTML", "CSS", "SCSS", "Javascript"],
+    //   category: "web app",
+    //   github: "https://github.com/ruchik02/Hospital-website",
+    //   webapp: "https://hospital-project01.netlify.app/",
+    // },
     {
       id: 1,
       title: "Real Estate",
@@ -292,6 +293,22 @@ export const projects = [
       github: "https://github.com/ruchik02/real-estate",
       webapp: "https://real-estate-bkxc.vercel.app/",
     },
+    {
+      id: 2,
+      title: "Portfolio",
+      description:
+        "Designed and developed a dynamic portfolio website using React, TypeScript, and modern UI libraries. Showcases my About, Education, and Experience sections with smooth navigation, interactive components, and a responsive design for an engaging user experience.",
+      image: one,
+      tags: [
+        "React Js",
+        "Javascript",
+        "Material UI",
+        "Redux",
+      ],
+      category: "web app",
+      github: "https://github.com/ruchik02/portfolio",
+      webapp: "https://portfolio-jade-seven-62.vercel.app/", 
+    }
     // {
     //   id: 2,
     //   title: "WhataApp Clone",
