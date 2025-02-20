@@ -248,22 +248,22 @@ export const history = [
 ];
 
 export const projects = [
-    {
-      id: 9,
-      title: "Guessing Game",
-      description:
-        "An interactive game where users guess a randomly generated number. The project is built using HTML, CSS, and JavaScript.",
-      image:
-        "https://user-images.githubusercontent.com/83516020/156896017-1816d382-060a-429e-8cd6-d22c54e911cd.png",
-      tags: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      category: "web app",
-      github: "https://github.com/ruchik02/Guessing_game",
-      webapp: "https://guessing-game-using-js.netlify.app/",
-    },
+    // {
+    //   id: 9,
+    //   title: "Guessing Game",
+    //   description:
+    //     "An interactive game where users guess a randomly generated number. The project is built using HTML, CSS, and JavaScript.",
+    //   image:
+    //     "https://user-images.githubusercontent.com/83516020/156896017-1816d382-060a-429e-8cd6-d22c54e911cd.png",
+    //   tags: [
+    //     "HTML",
+    //     "CSS",
+    //     "JavaScript",
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/ruchik02/Guessing_game",
+    //   webapp: "https://guessing-game-using-js.netlify.app/",
+    // },
     // {
     //   id: 0,
     //   title: "Hospital",
@@ -276,23 +276,23 @@ export const projects = [
     //   github: "https://github.com/ruchik02/Hospital-website",
     //   webapp: "https://hospital-project01.netlify.app/",
     // },
-    {
-      id: 1,
-      title: "Real Estate",
-      description:
-        "Developed a user-friendly Real Estate platform using TypeScript, React, Material UI, and Vite. It features property listings, filters, and smooth navigation for an enhanced user experience.",
-      image: RealEstate,
-      tags: [
-        "React Js",
-        "TypeScript",
-        "Material UI",
-        "Vite",
-        "Redux",
-      ],
-      category: "web app",
-      github: "https://github.com/ruchik02/real-estate",
-      webapp: "https://real-estate-bkxc.vercel.app/",
-    },
+    // {
+    //   id: 1,
+    //   title: "Real Estate",
+    //   description:
+    //     "Developed a user-friendly Real Estate platform using TypeScript, React, Material UI, and Vite. It features property listings, filters, and smooth navigation for an enhanced user experience.",
+    //   image: RealEstate,
+    //   tags: [
+    //     "React Js",
+    //     "TypeScript",
+    //     "Material UI",
+    //     "Vite",
+    //     "Redux",
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/ruchik02/real-estate",
+    //   webapp: "https://real-estate-bkxc.vercel.app/",
+    // },
     {
       id: 2,
       title: "Portfolio",
